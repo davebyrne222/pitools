@@ -53,9 +53,9 @@ All dependencies can be installed using `pipenv`.
     pipenv install
     ```
 
-   ## `.env` file
+## `.env` file
 
-3. Create a `.env` file to store Jira credentials locally:
+Create a `.env` file to store Jira credentials locally:
 
     ```shell
     printf "%s\n" "JIRA_USERNAME='<username>'" "JIRA_PASSWORD='<password>'" >.env
