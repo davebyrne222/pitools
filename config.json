@@ -1,0 +1,24 @@
+{
+  "jira": {
+    "url": "https://jira.prod.tvlport.com",
+    "projKey": "AO",
+    "project": "Air Offer-ART",
+    "boardId": 4226,
+    "teamName": "Crewmates"
+  },
+  "statsOutputDir": "/Users/david.byrne/Desktop/crewmates-review/",
+  "statsFileName": "issues",
+  "pi": "PI 27",
+  "iterations": [
+    "AO-PI27-IT1",
+    "AO-PI27-IT2",
+    "AO-PI27-IT3",
+    "AO-PI27-IT4",
+    "AO-PI27-IT5"
+  ],
+  "capacity": {
+    "server": [13,7,13,10,13],
+    "web": [12,10,14,11,10],
+    "qa/automation": [6,5,6,6,3]
+  }
+}

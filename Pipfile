@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+requests = "*"
+prettytable = "*"
+jmespath = "*"
+rich = "*"
+numpy = "*"
+business-duration = "*"
+holidays = "*"
+pandas = "*"
+matplotlib = "*"
+pyinstaller = "*"
+python-dotenv = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
