@@ -57,13 +57,13 @@ All dependencies can be installed using `pipenv`.
 
 Create a `.env` file to store Jira credentials locally:
 
-    ```shell
-    printf "%s\n" "JIRA_USERNAME='<username>'" "JIRA_PASSWORD='<password>'" >.env
-    ```
+```shell
+printf "%s\n" "JIRA_USERNAME='<username>'" "JIRA_PASSWORD='<password>'" >.env
+```
 
-   Where:
-   - `<username>` should be replaced with the username you use to access Jira
-   - `<password>` should be replaced with the password you use to access Jira
+Where:
+- `<username>` should be replaced with the username you use to access Jira
+- `<password>` should be replaced with the password you use to access Jira
 
 ## Create Bash Alias [OPTIONAL]
 
